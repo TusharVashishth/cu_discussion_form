@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+}
+
+.loginPage {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth_form {
+    min-width: 400px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.rightBlogDiv {
+    background-color: #f5f7fa;
+    min-height: 55px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.cursorPt {
+    cursor: pointer;
+}
+.post_img {
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+}
+.commentSection {
+    background-color: #D5D5D5;
+}
